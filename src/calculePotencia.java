@@ -10,8 +10,8 @@ public class calculePotencia {
             JOptionPane.showMessageDialog(null, "El resultado es: 1");
         } else {
             int expPositivo = -exponente;
-            double resultado = Math.pow(base, expPositivo);
-            JOptionPane.showMessageDialog(null, "El resultado es: 1/" + resultado);
+            double resultado = 1/ (Math.pow(base, expPositivo));
+            JOptionPane.showMessageDialog(null, "El resultado es: " + resultado );
         }
     }
 }
