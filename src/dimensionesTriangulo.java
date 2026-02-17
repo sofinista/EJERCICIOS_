@@ -3,12 +3,9 @@ import javax.swing.JOptionPane;
 public class dimensionesTriangulo {
     public static void main(String[] args) {
 
-        double A = Double.parseDouble(
-                JOptionPane.showInputDialog("Ingrese el lado A:"));
-        double B = Double.parseDouble(
-                JOptionPane.showInputDialog("Ingrese el lado B:"));
-        double C = Double.parseDouble(
-                JOptionPane.showInputDialog("Ingrese el lado C:"));
+        double A = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el lado A:"));
+        double B = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el lado B:"));
+        double C = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el lado C:"));
 
         double mayor = A;
         double lado1 = B;
